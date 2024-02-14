@@ -13,9 +13,16 @@ function App() {
     </h1>
    </div> */}
 
-    <div className=" bg-blue-400 sm:bg-red-400 md:bg-yellow-300 lg:bg-orange-400 xl:bg-slate-500 2xl:bg-violet-600 " >
-      <h3>Hello suraj bhau </h3>
+    <div className="grid grid-cols-1 md:grid-cols-3" >
+      <div className="bg-red-500">RED</div>
+      <div className="bg-yellow-500">Yellow</div>
+      <div className="bg-blue-500">Blue</div>
     </div>
+
+    {/* <div className=" bg-blue-400 sm:bg-red-400 md:bg-yellow-300 lg:bg-orange-400 xl:bg-slate-500 2xl:bg-violet-600 " >
+      <h3>Hello suraj bhau </h3>
+    </div> */}
+
   </>;
 }
 
