@@ -13,15 +13,9 @@ function App() {
     </h1>
    </div> */}
 
-    <div className=" grid grid-cols-12" >
-      <div className=" bg-red-400 col-span-4 border-2 border-black ">Hello Suraj</div>
-      <div className="bg-blue-500 col-span-6 ">Hello Suraj</div>
-      <div className=" bg-yellow-600 col-span-12  " >Hello Suraj</div>
-      <div className=" bg-red-400 col-span-4 ">Hello Suraj</div>
-      <div className="bg-blue-500 col-span-6 ">Hello Suraj</div>
-      <div className=" bg-yellow-600 col-span-2 " >Hello Suraj</div>
+    <div className=" bg-blue-400 sm:bg-red-400 md:bg-yellow-300 lg:bg-orange-400 xl:bg-slate-500 2xl:bg-violet-600 " >
+      <h3>Hello suraj bhau </h3>
     </div>
-
   </>;
 }
 
