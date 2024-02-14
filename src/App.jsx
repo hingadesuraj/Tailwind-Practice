@@ -13,10 +13,13 @@ function App() {
     </h1>
    </div> */}
 
-    <div className="flex p-1 m-2  justify-around" >
-      <div className=" bg-red-400" >Hello Suraj</div>
-      <div className="bg-blue-500" >Hello Suraj</div>
-      <div className=" bg-yellow-600" >Hello Suraj</div>
+    <div className=" grid grid-cols-12" >
+      <div className=" bg-red-400 col-span-4 border-2 border-black ">Hello Suraj</div>
+      <div className="bg-blue-500 col-span-6 ">Hello Suraj</div>
+      <div className=" bg-yellow-600 col-span-12  " >Hello Suraj</div>
+      <div className=" bg-red-400 col-span-4 ">Hello Suraj</div>
+      <div className="bg-blue-500 col-span-6 ">Hello Suraj</div>
+      <div className=" bg-yellow-600 col-span-2 " >Hello Suraj</div>
     </div>
 
   </>;
